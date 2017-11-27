@@ -1,0 +1,19 @@
+MapRDB tables: There are 3 mar db tables to store the values
+  1. job_tracker
+  2. wlds_recon
+  3. metastore
+.profile entries
+  1. paths to mapr db tables
+autosys jobs
+there are 11 jobs in each box compared to exitsing box(8)
+1. Fetch business date
+2. Stage load
+3. Gets source count
+4. Raw Metastore 
+5. Raw load
+6. Recon Raw
+7. Archive metastore
+8. Archive load
+9. Uparchive
+10. Recon snapshot
+11. Update status
